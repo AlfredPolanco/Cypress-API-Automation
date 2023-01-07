@@ -1,4 +1,4 @@
-# Cpyress-API-Automation
+# Cypress-API-Automation
 This repo contains API Tests using Cypress
 
 The framework contains the following 10 API calls for the website https://reqres.in/
