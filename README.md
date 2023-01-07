@@ -33,4 +33,4 @@ The framework contains the following 10 API calls for the website https://reqres
 `git clone [https://github.com/AlfredPolanco/API-AUTOMATION.git](https://github.com/AlfredPolanco/Cypress-API-Automation.git)`
 
 * Run API tests locallh with the following command
-`npm run api-tests` 
+`npm run api-test` 
