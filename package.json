@@ -1,0 +1,34 @@
+{
+  "name": "cypress-api-automation",
+  "version": "1.0.0",
+  "description": "Cypress API Automated tests",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "rm -rf cypress/reports && mkdir cypress/reports",
+    "api-test": "npm run pretest && npx cypress run",
+    "lint": "eslint cypress/e2e",
+    "lint-fix": "npm run lint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlfredPolanco/Cypress-API-Automation.git"
+  },
+  "keywords": [
+    "API",
+    "Automation",
+    "Cypress"
+  ],
+  "author": "Alfredo Polanco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlfredPolanco/Cypress-API-Automation/issues"
+  },
+  "homepage": "https://github.com/AlfredPolanco/Cypress-API-Automation#readme",
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}

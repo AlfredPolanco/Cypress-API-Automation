@@ -9,12 +9,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       # Install NPM dependencies, cache them correctly
-      # and run all Cypress tests
 
       - name: Run ESLint
         uses: actions/checkout@v2
         with:
-           start: npm run test
+           start: npm run lint
 
 
   Cypress-run:
@@ -27,4 +26,4 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v4 # use the explicit version number
         with:
-          start: npm run test
+          start: npm run api-test
