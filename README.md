@@ -19,7 +19,7 @@ The framework contains the following 10 API calls for the website https://reqres
 
 * [Javascript.](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 * [Nodejs.](https://nodejs.org/en/about/)
-* [Cypress]([https://www.postman.com/](https://docs.cypress.io/))
+* [Cypress.]([https://www.postman.com/](https://docs.cypress.io/))
 
 
 # Before installing
