@@ -26,6 +26,7 @@
   "homepage": "https://github.com/AlfredPolanco/Cypress-API-Automation#readme",
   "devDependencies": {
     "cypress": "^12.3.0",
+    "cypress-mochawesome-reporter": "^3.2.3",
     "eslint": "^8.31.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
