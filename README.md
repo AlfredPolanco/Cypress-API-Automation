@@ -30,10 +30,52 @@ The framework contains the following 10 API calls for the website https://reqres
 # Installation
 
 * Clone the repository from Github.
-`git clone' [https://github.com/AlfredPolanco/API-AUTOMATION.git](https://github.com/AlfredPolanco/Cypress-API-Automation.git)
-
+```bash
+git clone https://github.com/AlfredPolanco/Cypress-API-Automation.git
+```
 * Run the following command to install the project
-`npm i`
+```bash
+npm i
+```
+## Run Locally
 
-* Run API tests locally with the following command, a report will be generated showing up the test results
-`npm run api-test`
+Go to the project directory
+
+```bash
+  cd Cypress-API-Testing
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+## Start Cypress
+
+### Run using the Cypress GUI
+
+```bash
+  npx cypress open
+```
+
+* Select E2E testing in order to get access.
+
+* Select your desired browser
+
+* Start testing the API spect file
+
+### Run Headless  (without Cypress GUI)
+
+Go to the project directory
+
+```bash
+  cd Cypress-API-Automation
+```
+
+* Run API tests locally with the following command
+```bash
+npm run api-test
+```
+
+* After running a HTML report will be generated and saved at the  `cypress/reports` folder.
