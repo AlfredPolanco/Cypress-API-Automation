@@ -63,7 +63,7 @@ Install dependencies
 
 * Select your desired browser
 
-* Start testing the API spect file
+* Start testing the API spec file
 
 ### Run Headless  (without Cypress GUI)
 
